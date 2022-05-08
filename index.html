@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Marvel" />
+    <meta name="author" content="Viviane Martini">
+
+    <link rel="stylesheet" href="style.css">
+    <title>freeCodeCamp - Survey Form</title>
+</head>
+<body>
+    <div class="container">
+            <header class="header">
+                <h1 id="title">MCU Universe Survey</h1>
+                <p id="description">Complete the form and share who is your favorite hero!</p>
+            </header>
+  
+        <form id="survey-form">
+        
+            <div class="form-group" id="personal">
+                <label id="name-label" for="name">Name</label><br>
+                <input id="name" class="personal-info" type="text" placeholder="Name" required><br>
+                <label id="email-label" for="e-mail">E-mail</label><br>
+                <input id="email" class="personal-info" type="email" placeholder="E-mail" required><br>
+                <label id="number-label" for="number">Age (Optional)</label><br>
+                <input id="number" class="personal-info" type="number" placeholder="Age" min="10" max="99">
+            </div>
+            <br>
+            <br>
+
+            <div class="form-group" id="phase">
+                <label id="dropdown" for="phase"><h3>Which MCU phase is your favorite?</h3></label>
+                <select name="phase" id="dropdown">
+                    <option value="phase 1">Phase 1</option>
+                    <option value="phase 2">Phase 2</option>
+                    <option value="phase 3">Phase 3</option>
+                    <option value="phase 4">Phase 4</option>
+                </select> 
+            </div>
+            <br>
+            <br>
+
+            <div class="form-group choose-movie">
+                <h3>Which phase 4 movie are you most excited to see?</h3>
+                <label class="movie-container"> Thor - Love and Thunder
+                    <input type="radio" name="radio" value="Thor - Love and Thunder" checked="checked">
+                    <span class="checkmark"></span>
+                </label>   
+
+                <label class="movie-container"> Blade
+                    <input type="radio" name="radio" value="Blade">
+                    <span class="checkmark"></span>
+                </label>   
+
+                <label class="movie-container"> Fantastic Four
+                    <input type="radio" name="radio" value="Fantastic Four">
+                    <span class="checkmark"></span>
+                </label>   
+            </div>
+            <br>
+            <br>
+
+
+            <div id="characters" class="form-group">
+                <h3>Who are your favorite characters?</h3>
+                    <div class="character-list">
+                        <img src="img/spider-man.png" alt="Spider-man">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character1" value="Spider-man"> 
+                        <label for="character1">Spider-man</label>
+                        </div><br>
+                        
+                        <img src="img/iron-man.png" alt="Iron-man">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character2" value="Iron man">
+                        <label for="character2">Iron man</label>
+                        </div><br>
+
+                        <img src="img/wanda-icon.png" alt="Scarlet Witch">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character3" value="Scarlet Witch">
+                        <label for="character3">Scarlet Witch</label>
+                        </div><br>
+
+                        <img src="img/black-widow.png" alt="Black-widow">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character4" value="Black Widow">
+                        <label for="character4">Black Widow</label>
+                        </div><br>
+
+                        <img src="img/captain-america.png" alt="Captain america">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character5" value="Captain America">
+                        <label for="character5">Captain America</label>
+                        </div><br> 
+                        
+                        <img src="img/black-panther.png" alt="Black Panther">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character6" value="Black Panther">
+                        <label for="character6">Black Panther</label>
+                        </div><br>
+
+                        <img src="img/vision-avatar.png" alt="Vision">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character7" value="Vison">
+                        <label for="character7">Vision</label>
+                        </div><br>
+
+                        <img src="img/hulk.png" alt="Hulk">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character8" value="Hulk">
+                        <label for="character8">Hulk</label>
+                        </div><br>
+
+                        <img src="img/moon-knight-avatar.png" alt="Moon Knight">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character9" value="Moon Knight">
+                        <label for="character9">Moon Knight</label>
+                        </div><br>
+
+                        <img src="img/Loki.png" alt="Loki">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character10" value="Loki">
+                        <label for="character10">Loki</label>
+                        </div><br>
+
+                        <img src="img/groot.png" alt="Groot">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character11" value="Groot">
+                        <label for="character11">Groot</label>
+                        </div><br>
+
+                        <img src="img/kate-bishop-profile-icon.webp" alt="Kate Bishop">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character12" value="Kate Bishop">
+                        <label for="character12">Kate Bishop</label>
+                        </div><br>
+
+                        <img src="img/shang-chi-avatar.png" alt="Shan-chi">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character13" value="Shang-chi">
+                        <label for="character13">Shang-Chi</label>
+                        </div><br>
+
+                        <img src="img/sersi.png" alt="Sersi">
+                        <div class="checkbox">
+                        <input type="checkbox" name="character19" value="Sersi">
+                        <label for="character14">Sersi</label>
+                        </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="form-group">
+                <h3>Which story would you like to see in the big screen?</h3>
+                <textarea name="story" id="story" cols="30" rows="10">Some text...</textarea>
+            </div>
+            <br>
+
+            <div class="submit">
+                <h3>Submit your answer</h3><br>
+                <button id="submit">Assemble</button>
+            </div>
+        </form>
+
+        <br>
+    </div>
+
+   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
