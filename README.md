@@ -57,4 +57,4 @@ User Story #16: Inside the form element, I am presented with a button with id="s
 
 ## Test result
 
-in progress
+![](https://github.com/vivianemartini/surveyform.github.io/blob/main/img/test.PNG)
