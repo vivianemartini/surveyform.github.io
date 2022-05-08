@@ -2,7 +2,7 @@
 
 ## freeCodeCamp
 
-You can check the work here: in progress
+You can check the work here: https://vivianemartini.github.io/surveyform.github.io/
 
 ## Responsive Web Design Projects
 
@@ -13,7 +13,6 @@ By working on this project, I got the chance to apply all of the skills, princip
 
 ## Survey Form
 
-in progress
 
 ## Challenge
 
