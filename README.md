@@ -1,4 +1,4 @@
-# surveyform.github.io  📝
+## Surveyform  📝
 
 ## freeCodeCamp
 
@@ -57,3 +57,9 @@ User Story #16: Inside the form element, I am presented with a button with id="s
 ## Test result
 
 ![](https://github.com/vivianemartini/surveyform.github.io/blob/main/img/test.PNG)
+
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
+## Acknowledgments
+- Thanks freeCodeCamp
